@@ -209,7 +209,7 @@ li.nav-drop:hover {
 
   header nav .nav-sections .nav-drop {
     position: relative;
-    padding-right: 16px;
+    /*padding-right: 16px;*/
     cursor: pointer;
   }
 
