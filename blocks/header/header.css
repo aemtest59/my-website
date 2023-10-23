@@ -188,13 +188,12 @@ header nav .nav-sections ul > li > ul > li {
 
 
 li.nav-drop {
-    border: solid 5px #FC5185;
     transition: border-width 0.6s linear;
 }
 
 
 li.nav-drop:hover {
-    border-bottom: 4px solid #bd000c;
+    border-bottom: 3px solid #bd000c;
 }
 
 @media (min-width: 900px) {
@@ -215,7 +214,7 @@ li.nav-drop:hover {
   }
 
   header nav .nav-sections .nav-drop::after {
-    content: '';
+    /*content: '';*/
     display: inline-block;
     position: absolute;
     top: .5em;
